@@ -1,0 +1,85 @@
+#mainContainer{
+	width:80%;
+	height:300px;
+	margin:50px auto;
+	border:4px solid #301010;
+	border-radius:5px;
+	background: rgba(255,110,110,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,110,110,1) 0%, rgba(255,110,110,1) 24%, rgba(255,46,46,1) 95%, rgba(255,46,46,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,110,110,1)), color-stop(24%, rgba(255,110,110,1)), color-stop(95%, rgba(255,46,46,1)), color-stop(100%, rgba(255,46,46,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,110,110,1) 0%, rgba(255,110,110,1) 24%, rgba(255,46,46,1) 95%, rgba(255,46,46,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,110,110,1) 0%, rgba(255,110,110,1) 24%, rgba(255,46,46,1) 95%, rgba(255,46,46,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,110,110,1) 0%, rgba(255,110,110,1) 24%, rgba(255,46,46,1) 95%, rgba(255,46,46,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(255,110,110,1) 0%, rgba(255,110,110,1) 24%, rgba(255,46,46,1) 95%, rgba(255,46,46,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6e6e', endColorstr='#ff2e2e', GradientType=1 );
+}
+
+.imageOff{
+	width:200px;
+	height:80px;
+	background: url(images/off.png) no-repeat center;
+	top: -120px;
+    position: relative;
+}
+
+.imageOn{
+	width:200px;
+	height:80px;
+	background: url(images/on.png) no-repeat center;
+	margin-left: 0px;
+	top: -120px;
+    position: relative;
+}
+
+#button{
+	width:200px;
+	height:80px;
+	margin: 110px auto;
+	border:3px solid white;
+	border-radius:42px;
+}
+
+#button:hover{
+	cursor:pointer;
+}
+
+.buttonOn{
+	background-color:Orange;
+}
+
+.buttonOn:hover{
+	background-color:#ff9000;
+}
+
+.buttonOff{
+	background-color:Green;
+}
+
+.buttonOff:hover{
+	background-color:Darkgreen;
+}
+
+#buttonReflex{
+	width:180px;
+	height:40px;
+	margin: 40px auto;
+	border-radius:20px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+#buttonBall{
+	width:76px;
+	height:76px;
+	border:2px solid black;
+	border-radius:50%;
+	position:relative;
+	margin-top: -200px;
+	background: rgba(214,211,211,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(214,211,211,1) 0%, rgba(33,20,20,1) 95%, rgba(33,20,20,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(214,211,211,1)), color-stop(95%, rgba(33,20,20,1)), color-stop(100%, rgba(33,20,20,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(214,211,211,1) 0%, rgba(33,20,20,1) 95%, rgba(33,20,20,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(214,211,211,1) 0%, rgba(33,20,20,1) 95%, rgba(33,20,20,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(214,211,211,1) 0%, rgba(33,20,20,1) 95%, rgba(33,20,20,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(214,211,211,1) 0%, rgba(33,20,20,1) 95%, rgba(33,20,20,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d3d3', endColorstr='#211414', GradientType=1 );
+}
